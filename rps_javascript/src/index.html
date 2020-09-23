@@ -9,14 +9,34 @@
 </head>
 <body>
   <header><h1>Rock Papper Scissors</h1></header>
-  <div id="player1">
+  <section id="player">
+    <h2>Player 1</h2>
+  <div>
+  <input type="text" placeholder="Type your choice..." id="player1">
+  <button type="button" onclick="game();">Play</button>
+  </div>
+  </section>
+    <section id="player2">
+      <h2>Player 2</h2>
+    </section>
 
-  <button onclick="choiceGenerator()">Player 1</button>
-  <p id="player1"></p>
+  <section id="rules"><h3>Rules</h3>
+  <div>
+    <p>Hi. Please play my 'Rock. Papper Scissors' game. If you have never played before, the rules are as folows:</p>
+    <li><ul>You can choose between Rock, Papper and Scissors.</ul></li>
+    <li>
+      <ul>Rock < Scissors</ul>
+    </li>
+    <li>
+      <ul>Rock < Papper</ul>
+    </li>
+    <li>
+      <ul>Scissors < Papper</ul>
+    </li>
+    <li>
+      <ul>A player gets a point if their choice is greater than their opponents.<br>You can play as many times as you want, but normally, the first to get three points wins. For fareness, <br>please look away from the screen while the other player makes their choice.</ul>
+    </li>
   </div>
-  <div id="player2">
-  <button onclick="choiceGenerator()">Player 2</button>
-  <p id="player2"></p>
-  </div>
-</body>
+  </section>
+  </body>
 </html>
