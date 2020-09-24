@@ -3,15 +3,11 @@ describe("Rock Papper Scissors", () => {
     cy.visit("/");
   });
 
-it("Checks two players can play eachother", () => {
-  cy.get("body").contains("Welcome");
-  //cy.get("button").contains("start");
-  cy.get("body").contains("Rock").click();
-  cy.get("body").contains("Papper").click();
-   cy.get("body").contains("Scissors").click();
-
+  it("has a start button and two buttons for the players", () => {
+    cy.get("body").contains("Rock Papper Scissors");
+    cy.get('[data-cy="Player 1"]').contains("Player 1").click();
+    cy.get('[data-cy="Player 2"]').contains("Player2").click();
+    cy.get('[data-cy="Start"]').contains("Player 1").click();
     
-  
   });
-
 });
