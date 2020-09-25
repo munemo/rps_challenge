@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Rock Papper Scissors
+
+This is a "Rock Papper Scissors" game that lets two players play against eachother. The first player to reach three points wins.
+
+## Why i did it?
+
+This project is one of my projects in the Bootcamp at Craft Academy. I did it to learn how to solve a problem on my own without the help of code or my coaches. I tried to solve the problem with vanilla javascript, but ended up going back to React because i want to be better at it, but this means that i still have some issues with my conditionals and rendering of components.
+
+I used the math.random() method to generate randoms words.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
